@@ -1,0 +1,20 @@
+version: '2'
+
+services:
+  omvs:
+    container_name: omvs-armhf
+    image: feelform/omvs-armhf
+    network_mode: "host"
+    volumes:
+      - ./omvs_out:/omvs_out
+
+
+
+
+
+
+
+#docker run -it \
+#	--net=host \
+#	-v ${PWD}/omvs_out:/omvs_out \
+#	wiserain/omvs

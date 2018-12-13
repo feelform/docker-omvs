@@ -1,4 +1,4 @@
-FROM alpine:3.8
+FROM lsiobase/alpine.armhf:3.8
 
 RUN \
  echo "**** install build packages ****" && \
