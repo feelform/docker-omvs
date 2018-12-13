@@ -3,7 +3,7 @@ version: '2'
 services:
   omvs:
     container_name: omvs-armhf
-    image: feelform/omvs-armhf
+    image: feelform/omvs-armhf:1
     network_mode: "host"
     volumes:
       - ./omvs_out:/omvs_out
